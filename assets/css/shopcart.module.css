@@ -1,0 +1,330 @@
+.shop_cart_wrapper .bread {
+  margin-bottom: 56px;
+}
+
+.shop_cart_wrapper .bread p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #9F9F9F;
+}
+
+.shop_cart_wrapper .bread p span {
+  color: black;
+  font-weight: bold;
+}
+
+.shop_cart_wrapper .table_holder, .shop_cart_wrapper .table_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 24px;
+}
+
+.shop_cart_wrapper .table_holder span, .shop_cart_wrapper .table_card span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.shop_cart_wrapper .table_holder .product, .shop_cart_wrapper .table_card .product {
+  width: 35%;
+  text-align: center;
+}
+
+.shop_cart_wrapper .table_holder .price, .shop_cart_wrapper .table_card .price {
+  width: 16%;
+  text-align: center;
+}
+
+.shop_cart_wrapper .table_holder .id, .shop_cart_wrapper .table_card .id {
+  width: 16%;
+  text-align: center;
+}
+
+.shop_cart_wrapper .table_holder .date, .shop_cart_wrapper .table_card .date {
+  width: 16%;
+  text-align: center;
+}
+
+.shop_cart_wrapper .table_holder .info, .shop_cart_wrapper .table_card .info {
+  width: 16%;
+  text-align: center;
+}
+
+.shop_cart_wrapper .table_holder .info button, .shop_cart_wrapper .table_card .info button {
+  display: none;
+}
+
+.shop_cart_wrapper .codes_total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 64px;
+}
+
+.shop_cart_wrapper .codes_total .discount_code h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin-bottom: 34px;
+}
+
+.shop_cart_wrapper .codes_total .discount_code .code_enter {
+  border: 1px solid #474747;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shop_cart_wrapper .codes_total .discount_code .code_enter input {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.0216em;
+  color: #292929;
+  padding: 0 0 0 35px;
+  width: 400px;
+  border: none;
+  outline: none;
+}
+
+.shop_cart_wrapper .codes_total .discount_code .code_enter button {
+  padding: 21px 35px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  background-color: #474747;
+  display: block;
+}
+
+.shop_cart_wrapper .codes_total .cart_total {
+  width: 457px;
+}
+
+.shop_cart_wrapper .codes_total .cart_total .first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 26px;
+}
+
+.shop_cart_wrapper .codes_total .cart_total h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin-bottom: 42px;
+}
+
+.shop_cart_wrapper .codes_total .cart_total span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.shop_cart_wrapper .codes_total .cart_total span:nth-child(2) {
+  color: #FF7575;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.shop_cart_wrapper .codes_total .cart_total .button {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid #000000;
+  margin-top: 15px;
+}
+
+.shop_cart_wrapper .codes_total .cart_total .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.shop_cart_wrapper .empty_shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 100px 0;
+}
+
+.shop_cart_wrapper .empty_shop img {
+  width: 136px;
+  height: 136px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.shop_cart_wrapper .empty_shop h1 {
+  font-family: Vollkorn;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.425em;
+  margin-bottom: 41px;
+  color: #8A8A8A;
+}
+
+.shop_cart_wrapper .empty_shop .link {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  display: block;
+  padding: 12px 34px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+}
+
+.shop_mobile_card {
+  background: red;
+}
+
+@media only screen and (max-width: 1024px) {
+  .shop_cart_wrapper .codes_total .discount_code {
+    width: 45%;
+  }
+  .shop_cart_wrapper .codes_total .cart_total {
+    width: 30%;
+  }
+  .shop_cart_wrapper .codes_total .discount_code .code_enter input {
+    padding: 0 0 0 15px;
+  }
+  .customer_table .table_card .date {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: bottom;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .shop_cart_wrapper .codes_total {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .shop_cart_wrapper .codes_total .discount_code {
+    width: 100%;
+  }
+  .shop_cart_wrapper .codes_total .cart_total {
+    width: 100%;
+    margin-top: 32px;
+  }
+  .shop_cart_wrapper .codes_total .cart_total .right {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .shop_cart_wrapper .codes_total .discount_code .code_enter input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  .shop_cart_wrapper .codes_total .discount_code .code_enter button {
+    font-size: 16px;
+  }
+  .shop_cart_wrapper .table_holder, .shop_cart_wrapper .table_card {
+    display: none;
+  }
+  .shop_cart_wrapper .bread span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: #9F9F9F;
+  }
+  .shop_cart_wrapper .empty_shop h1 {
+    text-align: center;
+    font-size: 18px;
+  }
+}
+/*# sourceMappingURL=shopcart.module.css.map */

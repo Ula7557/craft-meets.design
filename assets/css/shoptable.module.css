@@ -1,0 +1,282 @@
+.button_select {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 143%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.018em;
+  color: #242424;
+  outline: none;
+  border: 1px solid #F2F2F2;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.button_select:last-child {
+  margin-left: 30px;
+}
+
+.customer_table {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  height: 149px;
+}
+
+.customer_table.active {
+  height: 0;
+  overflow: hidden;
+  border-top: 1px solid #FF7575;
+  border-bottom: 1px solid #FF7575;
+}
+
+.customer_table .table_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 24px;
+  position: relative;
+  z-index: 999;
+  background-color: #fff;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.customer_table .table_card span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.customer_table .table_card .product {
+  width: 35%;
+  text-align: center;
+}
+
+.customer_table .table_card .price {
+  width: 16%;
+  text-align: center;
+}
+
+.customer_table .table_card .id {
+  width: 16%;
+  text-align: center;
+}
+
+.customer_table .table_card .date {
+  width: 16%;
+  text-align: center;
+}
+
+.customer_table .table_card .info {
+  width: 16%;
+  text-align: center;
+}
+
+.customer_table .table_card.active {
+  -webkit-transform: translateX(-100px);
+          transform: translateX(-100px);
+  z-index: 100;
+  position: relative;
+}
+
+.customer_table .remove {
+  background-color: #FF7575;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+}
+
+.customer_table .remove button {
+  border: none;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: transparent;
+}
+
+.customer_table .remove img {
+  width: 30px;
+  height: 30px;
+}
+
+.customer_table .table_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 24px;
+}
+
+.customer_table .table_card h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.customer_table .table_card h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.05em;
+  color: #19191D;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.customer_table .table_card .img {
+  margin-right: 24px;
+  width: 154px;
+  height: 100px;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.customer_table .table_card button {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.018em;
+  color: #242424;
+  padding: 2px 5px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+
+.customer_table .table_card button:nth-child(1) {
+  display: block;
+  margin-right: 15px;
+}
+
+.customer_table .table_card .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.customer_table .table_card .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.customer_table .table_card .price h4 {
+  color: #FF7575;
+}
+
+.customer_table .table_card .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.customer_table .table_card .date .counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 19px;
+}
+
+.customer_table .table_card .date .counter button {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.customer_table .table_card .date .counter h6 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #19191D;
+  margin: 0 30px;
+}
+
+.customer_table .table_card .id h4 {
+  color: #FF7575;
+}
+
+.customer_table .table_card .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.customer_table .table_card .info button {
+  display: block;
+  border: none;
+  background-color: transparent;
+}
+/*# sourceMappingURL=shoptable.module.css.map */

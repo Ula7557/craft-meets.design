@@ -1,0 +1,444 @@
+.guest_orders_wrapper {
+  margin: 100px 0;
+  .table_wrapper {
+    position: relative;
+    margin-bottom: 100px;
+    p {
+      padding: 5px 20px;
+      display: inline-block;
+      color: #fff;
+      border-radius: 10px;
+      &.error {
+        color: #fe6f6f;
+      }
+      &.done {
+        color: #479479;
+      }
+    }
+    &.done {
+      p {
+        &.error {
+          display: none;
+        }
+      }
+    }
+    &.error {
+      p {
+        &.done {
+          display: none;
+        }
+      }
+    }
+    .table_head {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 20px 0;
+      border-bottom: 2px solid rgb(21, 21, 21);
+      justify-content: space-between;
+      span {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #000000;
+        text-align: center;
+        display: inline-block;
+      }
+      .quantity {
+        width: 10%;
+        text-align: center;
+      }
+      .unit {
+        text-align: center;
+        width: 10%;
+      }
+      .collection {
+        text-align: center;
+        width: 13%;
+      }
+      .image {
+        width: 10%;
+        text-align: center;
+        position: relative;
+        .data_date {
+          position: absolute;
+          width: 100%;
+          bottom: 60px;
+          white-space: nowrap;
+          color: #000;
+          opacity: 0.5;
+        }
+      }
+      .name {
+        text-align: center;
+        width: 22%;
+      }
+      .token {
+        text-align: center;
+        width: 15%;
+        position: relative;
+      }
+      .info {
+        text-align: center;
+        width: 17%;
+      }
+    }
+
+    .table_cards {
+      .card {
+        display: flex;
+        padding: 10px 0;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid rgb(186, 186, 186);
+        span {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 23px;
+          letter-spacing: 0.05em;
+          color: #19191d;
+          margin-bottom: 20px;
+          white-space: normal;
+          display: block;
+          word-wrap: break-word;
+        }
+      }
+      .quantity {
+        width: 10%;
+        text-align: center;
+        span {
+          font-weight: bold;
+        }
+      }
+      .unit {
+        text-align: center;
+        width: 10%;
+        span {
+          font-weight: bold;
+          color: #fe6f6f;
+        }
+      }
+      .collection {
+        text-align: center;
+        width: 13%;
+        span {
+          font-weight: bold;
+          color: #fe6f6f;
+        }
+      }
+      .image {
+        min-width: 10%;
+        text-align: center;
+        margin-right: 10px;
+        img {
+          width: 140px;
+          border-radius: 8px;
+        }
+      }
+      .name {
+        text-align: center;
+        width: 22%;
+        span {
+          text-align: left;
+          max-width: 358px;
+          white-space: normal;
+        }
+        .buttons {
+          display: flex;
+          button {
+            padding: 5px 10px;
+            border-radius: 5px;
+            background-color: transparent;
+            border: 1px solid #333;
+            margin-right: 10px;
+            display: block;
+          }
+        }
+      }
+      .token {
+        text-align: center;
+        width: 15%;
+        .copy {
+          width: 100%;
+          button {
+            background-color: transparent;
+            padding-right: 10px;
+            position: relative;
+            &:active {
+              transform: scale(0.9);
+            }
+          }
+          input {
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+          }
+        }
+      }
+      .info {
+        text-align: center;
+        width: 17%;
+      }
+    }
+  }
+}
+
+.empty_shop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px 0;
+  img {
+    width: 136px;
+    height: 136px;
+    object-fit: contain;
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-family: Vollkorn;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    letter-spacing: 0.425em;
+    margin-bottom: 41px;
+    color: #8a8a8a;
+  }
+  .link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    display: block;
+    padding: 12px 34px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .guest_orders_wrapper {
+    margin: 100px 0;
+    .table_wrapper {
+      .table_head {
+        span {
+          font-weight: 500;
+          font-size: 14px;
+        }
+
+        .name {
+          text-align: center;
+          width: 30%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .guest_orders_wrapper {
+    .table_wrapper {
+      .table_head {
+        span {
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 30px;
+        }
+        .quantity {
+          width: 10%;
+          text-align: center;
+        }
+        .unit {
+          text-align: center;
+          width: 10%;
+        }
+        .collection {
+          text-align: center;
+          width: 13%;
+        }
+        .image {
+          width: 10%;
+          text-align: center;
+        }
+        .name {
+          text-align: center;
+          width: 22%;
+        }
+        .token {
+          text-align: center;
+          width: 15%;
+        }
+        .info {
+          text-align: center;
+          width: 17%;
+        }
+      }
+
+      .table_cards {
+        .card {
+          span {
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 0.05em;
+          }
+        }
+        .quantity {
+          width: 5%;
+          text-align: center;
+          span {
+            font-weight: bold;
+          }
+        }
+        .unit {
+          text-align: center;
+          width: 10%;
+          span {
+            font-weight: bold;
+            color: #fe6f6f;
+          }
+        }
+        .collection {
+          text-align: center;
+          width: 10%;
+          span {
+            font-weight: bold;
+            color: #fe6f6f;
+          }
+        }
+        .image {
+          min-width: 10%;
+          text-align: center;
+          margin-right: 10px;
+          img {
+            width: 100px;
+            border-radius: 8px;
+          }
+        }
+        .name {
+          text-align: center;
+          width: 22%;
+          span {
+            text-align: left;
+            max-width: 358px;
+            white-space: normal;
+          }
+          .buttons {
+            display: flex;
+            button {
+              padding: 0px 10px;
+              border-radius: 5px;
+              background-color: transparent;
+              border: 1px solid #333;
+              margin-right: 10px;
+              display: block;
+              font-size: 13px;
+            }
+          }
+        }
+        .token {
+          text-align: center;
+          width: 15%;
+        }
+        .info {
+          text-align: center;
+          width: 17%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 450px) {
+  .guest_orders_wrapper {
+    margin: 0 0 30px 0;
+    .table_wrapper {
+      .table_head {
+        display: none;
+      }
+
+      .table_cards {
+        .card {
+          flex-wrap: wrap;
+          span {
+            font-size: 18px;
+            &.name_other {
+              margin-bottom: 5px;
+            }
+          }
+        }
+        .quantity {
+          width: 100%;
+          text-align: center;
+          span {
+            font-weight: bold;
+          }
+        }
+        .unit {
+          text-align: center;
+          width: 100%;
+          span {
+            font-weight: bold;
+            color: #fe6f6f;
+          }
+        }
+        .collection {
+          text-align: center;
+          width: 100%;
+          span {
+            font-weight: bold;
+            color: #fe6f6f;
+          }
+        }
+        .image {
+          min-width: 40%;
+          text-align: center;
+          margin-bottom: 30px;
+          margin-right: 10px;
+          img {
+            min-width: 100%;
+            border-radius: 8px;
+          }
+        }
+        .name {
+          text-align: center;
+          width: 55%;
+          margin-bottom: 30px;
+          span {
+            text-align: left;
+            max-width: 100%;
+            white-space: normal;
+          }
+          .buttons {
+            display: flex;
+            button {
+              padding: 5px 10px;
+              border-radius: 5px;
+              background-color: transparent;
+              border: 1px solid #333;
+              margin-right: 10px;
+              display: block;
+            }
+          }
+        }
+        .token {
+          text-align: center;
+          width: 100%;
+        }
+        .info {
+          text-align: center;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

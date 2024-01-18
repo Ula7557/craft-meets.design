@@ -1,0 +1,128 @@
+.login_wrapper{
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 39px 101px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 662px;
+   
+    .sign_in{
+        h1{
+            font-family: Vollkorn;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 33px;
+            letter-spacing: 0.4em;
+            color: #000000;
+            text-align: center;
+            margin-bottom: 64px;
+        }
+        label{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.1em;
+            color: #000000;
+            margin-bottom: 5px;
+            margin-top: 16px;
+            &:first-child{
+                margin-top: 0;
+            }
+        }
+        input{
+            display: block;
+            width: 100%;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 36px;
+            letter-spacing: 0.0216em;
+            color: #000000;
+            border: none;
+            outline: none;
+            background-color: #F8FAFC;
+            border-radius: 4px;
+            padding: 12px;
+            &:placeholder-shown{
+                color: #B8BCCA;
+            }
+        }
+        .rem{
+            display: flex;
+            align-items: center;
+            input{
+                width: 16px;
+                height: 16px;
+                margin: 0;
+                margin-right: 8px;
+            }
+            label{
+                margin: 0;
+                font-weight: 300;
+            }
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 87px;
+            padding: 8px 57px;
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            border-radius: 8px;
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+            letter-spacing: 0.05em;
+            color: #000000;
+            background-color: transparent;
+            &.button{
+                margin-top: 42px;
+                margin-bottom: 18px;
+            }
+        }
+        .some_text{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            justify-content: center;
+            h4{
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 14px;
+                line-height: 17px;
+                text-align: center;
+                letter-spacing: 0.15em;
+                color: #495057;
+                span{
+                    color: #556ee6;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .forget{
+            border: none;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 32px;
+            color: #ff2b56;
+        }
+
+        .margin{
+            margin-bottom: 179px;
+            margin-top: 44px;
+        }
+
+        .label{
+            margin-top: 134px;
+            display: block;
+        }
+    }
+}

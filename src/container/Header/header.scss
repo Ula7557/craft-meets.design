@@ -1,0 +1,538 @@
+.header-wrapper{
+    padding: 40px 0 80px 0;
+    .inner{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        position: relative;
+        .logo{
+            width: 25%;
+        }
+        .search-country-two{
+            display: none;
+        }
+        .openActive{
+            width: 75%;
+        }
+        .contact-page-links{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            position: relative;
+            width: 100%;
+            .close_img{
+                display: none;
+            }
+            .navbar{
+                width: 100%;
+                .navbar-ul{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .navbar-links{
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 22px;
+                        letter-spacing: 0.05em;
+                        color: #000000;
+                        position: relative;
+                        padding-bottom: 5px;wwww
+                        &::before{
+                            width: 0;
+                            position: absolute;
+                            height: 2px;
+                            background-color: #000;
+                            content: '';
+                            bottom: 0;
+                            transition: 0.2s;
+                        }
+                        &:hover{
+                            opacity: 0.7;
+                            &::before{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+    
+            .contacts{
+                position: absolute;
+                right: 0;
+                top: 30px;
+                .contact-items{
+                    text-align: right;
+                    .contact-link{
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 18px;
+                        line-height: 22px;
+                        letter-spacing: 0.1em;
+                        color: rgb(124, 124, 124);
+                        margin: 8px 0;
+                        display: inline-block;
+                        position: relative;
+                        padding-bottom: 1px;
+                        
+                        &::before{
+                            width: 0;
+                            position: absolute;
+                            height: 2px;
+                            background-color: rgb(124, 124, 124);
+                            content: '';
+                            bottom: 0;
+                            transition: 0.2s;
+                        }
+                        &:hover{
+                            opacity: 0.7;
+                            &::before{
+                                width: 100%;
+                            }
+                        }
+                        img{
+                            width: 40px;
+                            height: 40px;
+                            object-fit: contain;
+                        }
+                    }
+                    .contact-link1 {
+                        margin-top: 5px;
+                    }
+                }
+    
+                .search-country{
+                    width: 360px;
+                    overflow: hidden;
+                    position: relative;
+                    height: 45px;
+                    .country-holder{
+                        font-family: Vollkorn;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 24px;
+                        line-height: 33px;
+                        letter-spacing: 0.25em;
+                        color: #000000;
+                        position: absolute;
+                        padding-right: 40px;
+                        transition:  0.6s;
+                        transition-delay: 0.5s;
+                        cursor: pointer;
+                        background-color: transparent;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+                            bottom: 0;
+                            margin: auto;
+                            width: 21px;
+                            height: 21px;
+                            background-image: url('../../assets/icons/search.png');
+                            background-size: contain;
+                        }
+                    }
+                    .ant-select-selection-search-input{
+                        min-height: 100%;
+                        font-size: 18px;
+                        width: 95%;
+                    }
+                    .ant-select-selection-placeholder{
+                        padding-top: 7px;
+                        color: #333;
+                    }
+                    .ant-select-selector{
+                        height: 100%;
+                        border: 2px solid #000;
+                        width: 97%;
+                    }
+                    .ant-select-arrow{
+                        color: #333;
+                        display: none;
+                    }
+                    .ant-select{
+                        width: 95% !important;
+                    }
+                    .ant-select-selection-item{
+                        padding-top: 7px;
+                        font-size: 18px;
+                    }
+                    .search-selector{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        transition: 0.6s;
+                        transition-delay: 0.5s;
+                        background-color: transparent;
+                        img{
+                            width: 20px;
+                            height: 20px;
+                            object-fit: cover;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.icon_mobile{
+    display: none;
+}
+
+@media only screen and (max-width:1440px) {
+    .header-wrapper{
+        padding: 40px 0 100px 0;
+        .inner{
+            .logo{
+                img{
+                    width: 200px;
+                }
+            }
+            .contact-page-links{
+                width: 100%;
+                .navbar{
+                    width: 100%;
+                    .navbar-ul{
+                        .navbar-links{
+                            font-weight: 600;
+                            font-size: 14px;
+                            letter-spacing: 0.02em;
+                        }
+                    }
+                }
+                .contacts{
+                    .contact-items{
+                        margin-bottom: 0;
+                        .contact-link{
+                            font-size: 14px;
+                            margin: 0 0 5px 0;
+                            padding-bottom: 0;
+                        }
+                    }
+        
+                    .search-country{
+                        width: 360px;
+                        overflow: hidden;
+                        position: relative;
+                        height: 45px;
+                        margin: 0;
+                        .country-holder{
+                            font-family: Vollkorn;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 24px;
+                            line-height: 33px;
+                            letter-spacing: 0.25em;
+                            color: #000000;
+                            position: absolute;
+                            padding-right: 40px;
+                            transition:  0.6s;
+                            transition-delay: 0.5s;
+                            cursor: pointer;
+                            background-color: transparent;
+                            &::before{
+                                content: '';
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+                                bottom: 0;
+                                margin: auto;
+                                width: 21px;
+                                height: 21px;
+                                background-image: url('../../assets/icons/search.png');
+                                background-size: contain;
+                            }
+                        }
+                        .ant-select-selection-search-input{
+                            min-height: 100%;
+                            font-size: 18px;
+                            width: 95%;
+                        }
+                        .ant-select-selection-placeholder{
+                            padding-top: 7px;
+                            color: #333;
+                        }
+                        .ant-select-selector{
+                            height: 100%;
+                            border: 2px solid #000;
+                            width: 97%;
+                        }
+                        .ant-select-arrow{
+                            color: #333;
+                            display: none;
+                        }
+                        .ant-select{
+                            width: 95% !important;
+                        }
+                        .ant-select-selection-item{
+                            padding-top: 7px;
+                            font-size: 18px;
+                        }
+                        .search-selector{
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            transition: 0.6s;
+                            transition-delay: 0.5s;
+                            background-color: transparent;
+                            img{
+                                width: 20px;
+                                height: 20px;
+                                object-fit: cover;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header-wrapper{
+        padding: 40px 0;
+        position: relative;
+        .inner{
+            display: flex;
+            align-items: center;
+            position: static;
+            .logo{
+                img{
+                    width: 200px;
+                }
+            }
+            .openActive{
+                width: 100%;
+                background-color: #000;
+                height: 100%;
+                display: none;
+                &.active{
+                    display: block;
+                }
+            }
+            .contact-page-links{
+                padding: 0;
+                width: 0;
+                overflow: hidden;
+                text-align: left;
+                position: fixed;
+                display: flex;
+                flex-direction: column;
+                top: 0;
+                right: 0;
+                background-color: #fff;
+                z-index: 999;
+                height: 100vh;
+                .close_img{
+                    display: block;
+                    position: absolute;
+                    top: 30px;
+                }
+                &.active{
+                    padding: 100px 30px;
+                    width: 300px;
+                    overflow: scroll;
+                }
+                .navbar{
+                    width: 100%;
+                    .navbar-ul{
+                        display: flex;
+                        flex-direction: column;
+                        li{
+                            width: 100%;
+                        }
+                        .navbar-links{
+                            font-weight: 600;
+                            font-size: 14px;
+                            letter-spacing: 0.02em;
+                            text-align: left;
+                            display: block;
+                            margin-bottom: 36px;
+                        }
+                    }
+                }
+                .contacts{
+                    width: 100%;
+                    position: relative;
+                    margin-top: 200px;
+                    .contact-items{
+                        margin-bottom: 43px;
+                        text-align: left;
+                        width: 100%;
+                        .contact-link{
+                            font-size: 14px;
+                            margin: 0 0 16px 0;
+                            padding-bottom: 0;
+                            text-align: left;
+                        }
+                    }
+        
+                    .search-country{
+                        width: 200px;
+                        overflow: hidden;
+                        position: relative;
+                        height: 35px;
+                        margin: 0;
+                        .country-holder{
+                            font-family: Vollkorn;
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 14px;
+                            line-height: 33px;
+                            letter-spacing: 0.25em;
+                            color: #000000;
+                            position: absolute;
+                            padding-right: 10px;
+                            transition:  0.6s;
+                            transition-delay: 0.5s;
+                            cursor: pointer;
+                            background-color: transparent;
+                            &::before{
+                                display: none;
+                            }
+                        }
+                        .ant-select-selection-search-input{
+                            min-height: 100%;
+                            font-size: 18px;
+                            width: 95%;
+                        }
+                        .ant-select-selection-placeholder{
+                            padding-top: 0px;
+                            color: #333;
+                        }
+                        .ant-select-selector{
+                            height: 100%;
+                            border: 2px solid #000;
+                            width: 97%;
+                        }
+                        .ant-select-arrow{
+                            color: #333;
+                            display: none;
+                        }
+                        .ant-select{
+                            width: 95% !important;
+                        }
+                        .ant-select-selection-item{
+                            padding-top: 7px;
+                            font-size: 18px;
+                        }
+                        .search-selector{
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            transition: 0.6s;
+                            transition-delay: 0.5s;
+                            background-color: transparent;
+                            img{
+                                width: 20px;
+                                height: 20px;
+                                object-fit: cover;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .search-country-two{
+                display: block;
+                width: 360px;
+                    overflow: hidden;
+                    position: relative;
+                    height: 45px;
+                    .country-holder{
+                        font-family: Vollkorn;
+                        font-style: normal;
+                        font-weight: 800;
+                        font-size: 24px;
+                        line-height: 33px;
+                        letter-spacing: 0.25em;
+                        color: #000000;
+                        position: absolute;
+                        padding-right: 40px;
+                        transition:  0.6s;
+                        transition-delay: 0.5s;
+                        cursor: pointer;
+                        background-color: transparent;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            right: 0;
+                            top: 0;
+                            bottom: 0;
+                            margin: auto;
+                            width: 21px;
+                            height: 21px;
+                            background-image: url('../../assets/icons/search.png');
+                            background-size: contain;
+                        }
+                    }
+                    .ant-select-selection-search-input{
+                        min-height: 100%;
+                        font-size: 18px;
+                        width: 95%;
+                    }
+                    .ant-select-selection-placeholder{
+                        padding-top: 7px;
+                        color: #333;
+                    }
+                    .ant-select-selector{
+                        height: 100%;
+                        border: 2px solid #000;
+                        width: 97%;
+                    }
+                    .ant-select-arrow{
+                        color: #333;
+                        display: none;
+                    }
+                    .ant-select{
+                        width: 95% !important;
+                    }
+                    .ant-select-selection-item{
+                        padding-top: 7px;
+                        font-size: 18px;
+                    }
+                    .search-selector{
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        transition: 0.6s;
+                        transition-delay: 0.5s;
+                        background-color: transparent;
+                        img{
+                            width: 20px;
+                            height: 20px;
+                            object-fit: cover;
+                            cursor: pointer;
+                        }
+                    }
+            }
+
+
+            .icon_mobile{
+                display: block;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .header-wrapper{
+        .inner{
+            .search-country-two{
+                display: none;
+            }
+        }
+    }
+}
+

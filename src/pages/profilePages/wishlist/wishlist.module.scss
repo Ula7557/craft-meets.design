@@ -1,0 +1,166 @@
+.wishlist_wrapper{
+    .bread{
+        p{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.1em;
+            color: #9F9F9F;
+            span{
+                color: black;
+                font-weight: bold;
+            }
+        }
+        margin-bottom: 24px;
+    }
+    .page_search{
+        margin: 74px 0 33px 0;
+        .seearch_components{
+            padding: 33px 0;
+            .inner{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .holder{
+                    min-width: 122px;
+                    h2{
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 30px;
+                        letter-spacing: 0.1em;
+                        color: #242424;
+                        margin-bottom: 0;
+                    }
+                }
+                .search_inputs{
+                    width: 77%;
+                    form{
+                        display: flex;
+                        justify-content: space-between;
+                        input{
+                            width: 30%;
+                            border: none;
+                            outline: none;
+                            display: block;
+                            border: 0.5px solid #9CA5B2;
+                            border-radius: 8px;
+                            padding: 4px 10px;
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 18px;
+                            line-height: 36px;
+                            letter-spacing: 0.0216em;
+                            color: #242424;
+                            box-sizing: border-box;
+                        }
+                    }
+                }
+                .sort{
+                    width: 10%;
+                    display: flex;
+                    justify-content: flex-end;
+                    img{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    .wish_card_wrapper{
+        margin-top: 36px;
+        margin-bottom: 136px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        .wish_card{
+            width: 23%;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .wishlist_wrapper{
+        .wish_card_wrapper{
+            flex-wrap: wrap;
+            .wish_card{
+                width: 32%;
+                margin-bottom: 20px;
+            }
+        }
+    }   
+}
+
+@media screen and (max-width: 700px) {
+    .wishlist_wrapper{
+        .bread{
+            margin-top: 50px;
+        }
+        .page_search{
+            margin: 20px 0;
+            padding-top: 40px;
+            position: relative;
+            .seearch_components{
+                padding: 10px 0;
+                .inner{
+                    .holder{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+                    .sort{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                    }
+                    .search_inputs{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .wish_card_wrapper{
+            flex-wrap: wrap;
+            .wish_card{
+                width: 48%;
+                margin-bottom: 20px;
+            }
+        }
+    }   
+}
+
+@media screen and (max-width: 500px) {
+    .wishlist_wrapper{
+        .page_search{
+            margin: 20px 0;
+            padding-top: 40px;
+            position: relative;
+            .seearch_components{
+                padding: 10px 0;
+                .inner{
+                    .search_inputs{
+                        width: 100%;
+                        form{
+                            flex-direction: column;
+                            input{
+                                width: 100%;
+                                margin-bottom: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .wish_card_wrapper{
+            flex-wrap: wrap;
+            .wish_card{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    }   
+}

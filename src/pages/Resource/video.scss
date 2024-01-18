@@ -1,0 +1,21 @@
+.video-react.video-react-fluid{
+    height: 406px !important;
+}
+
+
+@media only screen and (max-width:1440px) {
+
+    .video-react.video-react-fluid{
+    height: 308px !important;
+}
+
+}
+
+@media only screen and (max-width:1024px) {
+
+    .video-react.video-react-fluid{
+    height: 308px !important;
+    width: 100% !important;
+}
+
+}

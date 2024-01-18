@@ -1,0 +1,186 @@
+@mixin block-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+@mixin content-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.0216em;
+    color: #000000;
+}
+
+
+
+.content-block-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 170px;
+
+    .left-side {
+        width: 45%;
+
+        .carosel-tems {
+            background: #FFFFFF;
+            border: 1px solid #9CA5B2;
+            box-sizing: border-box;
+            border-radius: 16px;
+            overflow: hidden;
+            .slick-slider{
+                height: 534px;
+            }
+            .slick-arrow{
+                display: none !important;
+            }
+
+            .slick-slide{
+                width: 100% !important;
+            }
+            .slick-dots{
+                bottom: -70px;
+                display: flex !important;
+                justify-content: center;
+                align-items: center !important;
+                li{
+                    width: 30px;
+                    height: 5px;
+                    background-color: rgb(175, 175, 175);
+                    border-radius: 100px;
+                    &.slick-active{
+                        width: 40px;
+                        height: 10px;
+                        background-color: #000000;
+                    }
+                    button{
+
+                        &::before{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .images{
+                width: 100%;
+                height: 534px;
+                overflow: hidden;
+                object-fit: cover;
+            }
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .right-side {
+        width: 45%;
+
+        .inner-block {
+            h2 {
+                @include block-name();
+                margin-bottom: 24px;
+            }
+
+            .p {
+                @include content-text()
+            }
+        }
+    }
+
+
+}
+@media only screen and (max-width:1024px) {
+    .content-block-one .left-side{
+        width: 87%;
+    }
+    .content-block-one .right-side{
+        width: 100%;
+    }
+    .content-block-one .right-side .inner-block h2{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .content-block-one .right-side .inner-block p{
+        text-align: center;
+    }
+    .content-block-one .right-side .inner-block h2{
+        width: 86%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content-block-one .left-side .carosel-tems{
+        height: 517px;
+    }
+    .content-block-one .left-side{
+        height: 517px;
+    }
+    .content-block-one .left-side .carosel-tems img{
+        height: 517px;
+    }
+    
+}
+@media only screen and(max-width:986px) {
+    .content-block-one .left-side .carosel-tems{
+        height: 524px;
+    }
+    .content-block-one .left-side{
+        height: 524px;
+    }
+    .content-block-one .left-side .carosel-tems img{
+        height: 524px;
+    }
+    
+}
+@media only screen and(max-width:700px) {
+    .content-block-one .left-side .carosel-tems{
+        height: 414px;
+    }
+    .content-block-one .left-side{
+        height: 414px;
+    }
+    .content-block-one .left-side .carosel-tems img{
+        height: 414px;
+    }
+    .content-block-one .left-side{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:450px) {
+    .content-block-one .left-side .carosel-tems{
+        height: 307px;
+    }
+    .content-block-one .left-side{
+        height: 307px;
+    }
+    .content-block-one .left-side .carosel-tems img{
+        height: 307px;
+    }
+    .content-block-one .right-side .inner-block p{
+        height: 254px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+    }
+    .content-block-one .right-side .inner-block h2{
+        margin-top: 18px;
+    }
+    .content-block-one .right-side .inner-block h2{
+        width: 98%;
+    }
+    .content-block-one .right-side .inner-block p{
+        text-align: left;
+    }
+}
+    

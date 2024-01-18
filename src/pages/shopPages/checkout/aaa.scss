@@ -1,0 +1,401 @@
+
+
+.error {
+    color: red;
+    font-weight: bold;     
+
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 50px 70px 50px;
+}
+
+.bread {
+    p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.1em;
+        color: #9F9F9F;
+        .black_txt{
+            font-weight: bold;
+            color: black;
+        }
+    }
+}
+
+
+.block3 {
+    box-sizing: border-box;
+    border: 0.5px solid #C4C4C4;
+    border-radius: 8px;
+    padding: 20px;
+    width: 40%;
+    min-height: 458px;
+    overflow-y: scroll;
+}
+
+.block4 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.block1 {
+    width: 45%;
+    .text1 {
+        margin-bottom: 4px;
+    }
+    input, select{
+        padding: 12px;
+        margin-bottom: 20px;
+    }
+    .antd_selector{
+        margin-bottom: 20px;
+        height: 51px;
+    }
+
+}
+
+.block2 {
+    width: 45%;
+
+    input {
+        padding: 12px;
+        margin-bottom: 20px;
+    }
+
+    .text1 {
+        margin-bottom: 4px;
+    }
+}
+
+
+.block9 {
+    .text1 {
+        margin-bottom: 4px;
+    }
+}
+
+
+
+.block5 {
+    display: flex;
+    margin-bottom: 16px;
+    justify-content: space-between;
+}
+
+.block6 {
+    display: flex;
+    margin-top: 39px;
+    margin-bottom: 18px;
+}
+
+.block7 {
+    display: flex;
+    margin-bottom: 44px;
+}
+
+
+
+.block8 {
+    width: 55%;
+}
+
+
+
+.text1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.text2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.text3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0216em;
+    color: #000000;
+    max-width: 200px;
+}
+
+.text4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0216em;
+    color: #000000;
+}
+
+.text5 {
+    width: 110px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #6E6E6E;
+}
+
+.text6 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+    width: 90%;
+}
+
+.text7 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #FF7575;
+    width: 50%;
+}
+
+.text8 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.1em;
+    color: #FF7575;
+    width: 50%;
+}
+.block_total{
+    .first_total{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            letter-spacing: 0.1em;
+            color: #000000;
+        }
+        span:nth-child(2){
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 40px;
+            letter-spacing: 0.1em;
+            color: #6E6E6E;
+        }
+
+    }
+
+}
+.input1 {
+    background: #F8FAFC;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+
+}
+
+.textarea1 {
+    height: 160px;
+    width: 100%;
+    padding: 12px;
+    background: #F8FAFC;
+    border-radius: 4px;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.0216em;
+    color: #000000;
+    outline: none;
+
+    &:placeholder-shown {
+        color: #B8BCCA;
+    }
+}
+
+.btn1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: white;
+    justify-content: center;
+    margin: 0 auto;
+    content: 'Order';
+}
+
+.search-country {
+    margin: 10px 0 20px 0;
+}
+
+
+@media only screen and (max-width:1450px) {
+    .block8 {
+        width: 60%;
+    }
+
+    .block3 {
+        width: 34%;
+    }
+    
+}
+
+
+
+@media only screen and (max-width:1024px) {
+
+    .block {
+        flex-direction: column;
+        margin: 32px 0;
+    }
+
+    .block8 {
+        width: 100%;
+    }
+
+    .block3 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .block5 {
+        justify-content: space-between;
+    }
+
+    .text6 {
+        width: auto;
+    }
+
+    .text7 {
+        width: auto;
+    }
+
+    .block6 {
+        justify-content: space-between;
+    }
+
+    .block7 {
+        justify-content: space-between;
+    }
+
+    .text8 {
+        width: auto;
+    }
+}
+
+
+@media only screen and (max-width:700px) {
+
+
+    .block4 {
+        flex-direction: column;
+    }
+
+    .block1 {
+        width: 100%;
+    }
+
+    .block2 {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:450px) {
+
+
+    .text1 {
+        font-size: 18px;
+    }
+
+    .block1 input {
+        font-size: 16px;
+    }
+
+    .text3 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .text4 {
+        font-size: 16px;
+        line-height: 25px;
+        margin-left: 0;
+    }
+
+    .text5 {
+        font-size: 16px;
+        line-height: 25px;
+        margin-left: 0;
+    }
+
+    .text7 {
+        font-size: 20px;
+    }
+
+    .text8 {
+        font-size: 20px;
+    }
+
+}

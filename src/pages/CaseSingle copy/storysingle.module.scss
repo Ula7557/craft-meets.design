@@ -1,0 +1,415 @@
+.case_single_page_wrapper {
+    .showmore_singlecase {
+        border: none;
+        background: none;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.1em;
+        color: #000000;
+        cursor: pointer;
+        padding-bottom: 2px;
+        border-bottom: 2px solid black;
+        display: none;
+    }
+
+    .top_place {
+        height: 134px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.481);
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            content: '';
+        }
+
+        h1 {
+            font-family: Vollkorn;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 50px;
+            letter-spacing: 0.4em;
+            text-transform: uppercase;
+            z-index: 1;
+            color: #FFFFFF;
+        }
+    }
+
+    .middle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 64px 0;
+
+        h1 {
+            font-family: Vollkorn;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 34px;
+            line-height: 33px;
+            letter-spacing: 0.155em;
+            color: #000000;
+            margin: 0;
+        }
+    }
+
+    .bottom_place {
+        &.active {
+            display: none;
+        }
+
+        .animation_images {
+            display: flex;
+            height: 636px;
+
+            .card_image {
+                width: 13%;
+                height: 100%;
+                transition: 0.3s;
+
+                &.active {
+                    width: 74%;
+                }
+
+                &:nth-child(2) {
+                    padding: 0 5px;
+                }
+
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .single_case_main_content {
+        margin-top: 90px;
+
+        .case_single_case_info_block {
+            .personal_name {
+                font-family: Vollkorn;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 48px;
+                line-height: 140%;
+                letter-spacing: 0.065em;
+                color: #161616;
+                margin: 0;
+                margin-bottom: 26px;
+            }
+
+            .personal_category {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 40px;
+                letter-spacing: 0.1em;
+                color: #828282;
+                margin-bottom: 47px;
+                display: block;
+            }
+
+            .personal_info_image {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                margin-bottom: 70px;
+
+                p {
+                    font-family: Montserrat;
+                    font-style: italic;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 36px;
+                    letter-spacing: 0.0216em;
+                    color: #161616;
+                    width: 60%;
+                }
+
+                img {
+                    height: 400px;
+                    width: 35%;
+                    object-fit: cover;
+                }
+
+                &.active {
+                    flex-direction: row-reverse;
+
+                    img {
+                        width: 30%;
+                        height: 524px;
+                    }
+
+                    p {
+                        width: 65%;
+                    }
+                }
+            }
+
+            .personal_info_full {
+                margin-bottom: 108px;
+
+                h1 {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 30px;
+                    line-height: 40px;
+                    letter-spacing: 0.1em;
+                    color: #242424;
+                    margin: 0;
+                    margin-bottom: 34px;
+                }
+
+                p {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 36px;
+                    letter-spacing: 0.0216em;
+                    color: #161616;
+                }
+            }
+        }
+    }
+
+    .bottom_banner {
+        widows: 100%;
+        height: 134px;
+        margin-bottom: 32px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:1400px) {
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image.active {
+        height: max-content;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image.active img {
+        height: 523px;
+        margin-top: 0;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image {
+        flex-direction: column;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image p {
+        width: 100%;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_category {
+        margin-bottom: 0;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image img {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+}
+
+
+@media only screen and (max-width:1024px) {
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_name {
+        font-size: 36px;
+        line-height: 140%;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image.active {
+        flex-direction: column-reverse;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image.active p {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image.active img {
+        width: 100%;
+        margin-top: 40px;
+        // height: 800px;
+    }
+
+    .case_single_page_wrapper .showmore_singlecase {
+        display: block;
+        margin-top: 16px;
+    }
+
+
+}
+
+
+@media only screen and (max-width:968px) {
+
+    .case_single_page_wrapper .bottom_place .animation_images {
+        height: 465px;
+
+    }
+
+    .case_single_page_wrapper .bottom_place .animation_images .card_image {
+        height: 100%;
+    }
+
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_full {
+        margin-bottom: 50px;
+        flex-direction: column-reverse;
+    }
+
+     
+   
+
+}
+
+
+
+@media only screen and (max-width:700px) {
+
+    
+
+
+
+
+    .case_single_page_wrapper .bottom_place .animation_images {
+        height: 336px;
+
+    }
+
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_name {
+        font-size: 28px;
+        line-height: 140%;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_category {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image.active {
+        flex-direction: column-reverse;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_full h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_full p {
+        font-size: 18px;
+        line-height: 36px;
+
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image.active p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_full {
+        margin-bottom: 40px;
+    }
+
+}
+
+
+@media only screen and (max-width:450px) {
+
+    .case_single_page_wrapper .top_place h1 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
+    .case_single_page_wrapper .bottom_place .animation_images {
+        height: 262px;
+
+    }
+
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_name {
+        font-size: 20px;
+        line-height: 140%;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_category {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image p {
+        font-size: 17px;
+        line-height: 36px;
+    }
+
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_full h1 {
+        font-size: 20px;
+        line-height: 140%;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_full p {
+        font-size: 17px;
+        line-height: 36px;
+
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image.active p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_image.active img {
+        width: 100%;
+        margin-top: 40px;
+        // height: 335px;
+    }
+
+    .case_single_page_wrapper .single_case_main_content .case_single_case_info_block .personal_info_full {
+        margin-bottom: 30px;
+    }
+
+}

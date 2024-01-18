@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAA;EACf,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,KAAK;EACb,aAAa,EAAE,KAAK;CACvB",
+    "sources": [
+        "../../src/container/yandexmap/yandexmap.scss"
+    ],
+    "names": [],
+    "file": "yandexmap.css"
+}

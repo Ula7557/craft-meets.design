@@ -1,0 +1,945 @@
+.artisans_page_wrapper {
+  .artisans_banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 134px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 40px;
+    &::before {
+      content: "";
+      background-color: rgba(0, 0, 0, 0.474);
+      top: 0;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    h1 {
+      font-family: Vollkorn;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 50px;
+      text-align: center;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      color: #ffffff;
+      z-index: 1;
+    }
+  }
+  .search_place {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 108px;
+    .search_wrapper {
+       
+    
+        button {
+        display: none;
+        }
+      }
+    span {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.1em;
+      color: #242424;
+    }
+    input {
+      border: none;
+      outline: none;
+      border: 0.5px solid #9ca5b2;
+      border-radius: 8px;
+      padding: 4px 10px 4px 24px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 36px;
+      letter-spacing: 0.0216em;
+      color: #242424;
+      &:nth-child(2) {
+        margin: 0 48px;
+      }
+
+    }
+    img{
+      cursor: pointer;
+    }
+  }
+  .artisans_card_wrapper {
+    position: relative;
+    .artisans_info {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      .left_side {
+        width: 25%;
+        z-index: 999;
+        img {
+          object-fit: cover;
+          width: 469px;
+          height: 469px;
+          padding: 10px;
+          border-radius: 50%;
+          background-color: #fff;
+        }
+      }
+      .right_side {
+        width: 50%;
+        .name {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .name_left {
+            width: 100%;
+            h1 {
+              margin: 0;
+              font-family: Vollkorn;
+              font-style: normal;
+              font-weight: 800;
+              font-size: 40px;
+              line-height: 56px;
+              letter-spacing: 0.11em;
+              color: #000000;
+            }
+            .loca_cate {
+              display: flex;
+              align-items: center;
+              margin-bottom: 32px;
+              span {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 24px;
+                letter-spacing: 0.15em;
+                color: #070707;
+                &:nth-child(2) {
+                  margin-left: 72px;
+                  color: #828282;
+                }
+              }
+            }
+          }
+          button {
+            font-family: Montserrat;
+            border: none;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            /* identical to box height, or 150% */
+
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.05em;
+
+            color: #000000;
+            padding: 8px 40px;
+            display: block;
+            border: 1px solid #000;
+            background-color: transparent;
+            border-radius: 6px;
+          }
+        }
+        p {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 18px;
+          line-height: 36px;
+          letter-spacing: 0.0216em;
+          color: #161616;
+        }
+
+        .see_more_link {
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 30px;
+          letter-spacing: 0.1em;
+          text-decoration-line: underline;
+          color: #242424;
+        }
+      }
+    }
+    .artisans_item_slider {
+      transform: translateY(-60px);
+      height: 340px !important;
+      width: 100% !important;
+      .slider_wrapper {
+        display: flex;
+        align-items: center;
+        .slider_image {
+          width: 100%;
+          margin: 0 5px;
+          img {
+            width: 100%;
+            object-fit: cover;
+            height: 302px;
+          }
+        }
+      }
+    }
+  }
+  .last_banner {
+    width: 100%;
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .left_side {
+      img {
+        width: 384px !important;
+        height: 384px !important;
+        margin-right: 100px !important;
+      }
+    }
+  
+    .right_side {
+      margin-left: 100px !important;
+      margin-bottom: 100px  !important;
+    }
+}
+@media only screen and (max-width: 1400px) {
+  .search_place {
+    span {
+      font-size: 16px !important;
+      line-height: 30px !important;
+      letter-spacing: 0.1em !important;
+    }
+
+    input {
+      width: 176px !important;
+
+      &:nth-child(2) {
+        margin: 0 16px !important;
+      }
+    }
+  }
+
+  .left_side {
+    img {
+      width: 384px !important;
+      height: 384px !important;
+      margin-right:100px !important;
+    }
+  }
+  .right_side{
+    margin-left: 100px !important;
+    margin-bottom: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .search_place {
+    span {
+      font-size: 16px !important;
+      line-height: 30px !important;
+      letter-spacing: 0.1em !important;
+    }
+
+    input {
+      width: 176px !important;
+
+      &:nth-child(2) {
+        margin: 0 16px !important;
+      }
+    }
+  }
+
+  .left_side {
+    img {
+      width: 284px !important;
+      height: 284px !important;
+    }
+  }
+
+  .right_side {
+    a {
+      text-transform: uppercase !important;
+      font-size: 18px !important;
+    }
+
+    p {
+      height: 117px !important;
+      overflow: hidden !important;
+    }
+
+    .name_left {
+      h1 {
+        font-size: 28px !important;
+        line-height: 39px !important;
+        letter-spacing: 0.11em !important;
+      }
+
+      .loca_cate {
+        span {
+          font-size: 18px !important;
+          line-height: 22px !important;
+          text-transform: uppercase !important;
+          margin-top: 18px !important;
+
+          &:nth-child(2) {
+            margin-left: 72px;
+            color: #828282;
+          }
+        }
+      }
+    }
+  }
+
+  .artisans_item_slider {
+    margin-top: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .search_place {
+    span {
+      font-size: 16px !important;
+      line-height: 30px !important;
+      letter-spacing: 0.1em !important;
+    }
+    input {
+      width: 176px !important;
+      
+      &:nth-child(2) {
+        margin: 0 16px !important;
+      }
+    }
+  }
+  .left_side {
+    img {
+      width: 284px !important;
+      height: 284px !important;
+    }
+  }
+  .right_side {
+    .name {
+        align-items: flex-start !important;
+      }
+    a {
+      text-transform: uppercase !important;
+      font-size: 18px !important;
+    }
+    p {
+      height: 117px !important;
+      overflow: hidden !important;
+    }
+
+    .name_left {
+      h1 {
+        font-size: 28px !important;
+        line-height: 39px !important;
+        letter-spacing: 0.11em !important;
+      }
+
+      .loca_cate {
+        span {
+          font-size: 18px !important;
+          line-height: 22px !important;
+          text-transform: uppercase !important;
+          margin-top: 18px !important;
+          &:nth-child(2) {
+            margin-left: 72px;
+            color: #828282;
+          }
+        }
+      }
+    }
+  }
+  .artisans_item_slider {
+    margin-top: 100px !important;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .search_place {
+    span {
+      font-size: 16px !important;
+      line-height: 30px !important;
+      letter-spacing: 0.1em !important;
+      margin-left: 40px !important;
+    }
+
+    input {
+      width: 178px !important;
+
+      &:nth-child(2) {
+        margin: 0 16px !important;
+      }
+    }
+    img {
+      margin-right: 40px !important;
+    }
+  }
+
+  .left_side {
+    img {
+      width: 256px !important;
+      height: 256px !important;
+    }
+  }
+
+  .right_side {
+    width: 70% !important;
+    padding: 0 40px;
+    button {
+      padding: 8px 30px !important;
+    }
+    a {
+      text-transform: uppercase !important;
+      font-size: 18px !important;
+    }
+
+    p {
+      height: 117px !important;
+      overflow: hidden !important;
+    }
+
+    .name_left {
+      h1 {
+        font-size: 28px !important;
+        line-height: 39px !important;
+        letter-spacing: 0.11em !important;
+      }
+
+      .loca_cate {
+        span {
+          font-size: 18px !important;
+          line-height: 22px !important;
+          text-transform: uppercase !important;
+          margin-top: 18px !important;
+
+          &:nth-child(2) {
+            margin-left: 72px;
+            color: #828282;
+          }
+        }
+      }
+    }
+  }
+
+  .artisans_item_slider {
+    margin-top: 100px !important;
+  }
+}
+
+.input_modal{
+  width: 410px;
+    height: 332px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .input_modal_title{
+      font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.1em;
+        margin-bottom: 32px;
+        margin-top: 10px;
+    }
+    input{
+      margin-bottom: 16px;
+      border: 0.5px solid #9CA5B2;
+        border-radius: 8px;
+        width: 304px;
+          height: 44px;
+          padding: 4px 12px;
+          outline: none;
+          &::placeholder{
+            font-style: normal;
+              font-weight: 300;
+              font-size: 18px;
+              line-height: 36px;
+          }
+    }
+}
+@media only screen and (max-width: 968px) {
+  .search_place {
+    span {
+      font-size: 16px !important;
+      line-height: 30px !important;
+      letter-spacing: 0.1em !important;
+      margin-left: 40px !important;
+    }
+
+    input {
+      width: 178px !important;
+
+      &:nth-child(2) {
+        margin: 0 16px !important;
+      }
+    }
+    img {
+      margin-right: 40px !important;
+    }
+  }
+     .left_side {
+       width: 30% !important;
+       z-index: 999;
+     }
+  
+     .right_side {
+       width: 60% !important;
+       margin: 0 !important;
+  
+       .name {
+         align-items: flex-start !important;
+       }
+     }
+}
+
+@media only screen and (max-width: 930px) {
+  .search_place {
+    span {
+      margin-left: 20px !important;
+    }
+
+    input {
+      width: 158px !important;
+    }
+
+    img {
+      margin-right: 20px !important;
+    }
+  }
+    .left_side {
+      width: 30% !important;
+      z-index: 999;
+    }
+        .right_side {
+          width: 60% !important;
+          margin: 0 !important;
+          .name {
+              align-items: flex-start !important;
+          }
+        }
+}
+@media only screen and (max-width: 850px) {
+  .search_place {
+    span {
+      margin-left: 0px !important;
+    }
+    form {
+      input {
+        width: 150px !important;
+      }
+    }
+
+    img {
+      margin-right: 0px !important;
+    }
+  }
+  .left_side {
+    width: 30% !important;
+    z-index: 999;
+
+    img {
+      object-fit: cover;
+      width: 243px !important;
+      height: 243px !important;
+      padding: 10px;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+  }
+  .right_side {
+    width: 60% !important;
+    margin: 0 !important;
+    .name {
+      align-items: flex-start !important;
+      .name_left {
+        width: 65%;
+        h1 {
+          font-size: 30px !important;
+        }
+        .loca_cate {
+          margin-bottom: 32px;
+          span {
+            white-space: nowrap !important;
+            margin-left: 0px !important;
+            font-size: 16px !important;
+            &:nth-child(2) {
+              margin-left: 20px !important;
+              color: #828282;
+            }
+          }
+        }
+      }
+      button {
+        font-size: 18px !important;
+        padding: 8px 20px !important;
+      }
+    }
+    p {
+      font-size: 18px;
+    }
+
+    .see_more_link {
+      font-size: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .search_place {
+    span {
+      margin-left: 0px !important;
+    }
+    form {
+      input {
+        width: 130px !important;
+      }
+    }
+    img {
+      margin-right: 0px !important;
+    }
+  }
+  .left_side {
+    width:40% !important;
+    z-index: 999;
+  //   display: flex;
+  // justify-content: center;
+
+    img {
+      object-fit: cover;
+      width: 243px !important;
+      height: 243px !important;
+      padding: 10px;
+      border-radius: 50%;
+      background-color: #fff;
+      margin: 0 !important;
+      
+    }
+  }
+  .right_side {
+    width: 60% !important;
+    margin: 0  !important;
+    .name {
+      align-items: flex-start !important;
+
+      .name_left {
+        width: 65%;
+
+        h1 {
+          font-size: 30px !important;
+        }
+
+        .loca_cate {
+          margin-bottom: 32px;
+
+          span {
+            white-space: nowrap !important;
+            margin-left: 0px !important;
+            font-size: 16px !important;
+
+            &:nth-child(2) {
+              margin-left: 20px !important;
+              color: #828282;
+            }
+          }
+        }
+      }
+
+      button {
+        font-size: 18px !important;
+        padding: 8px 20px !important;
+      }
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .see_more_link {
+      font-size: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .search_place {
+    flex-wrap: wrap;
+    .search_wrapper{
+      display: flex;
+      align-items: center;
+button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+      display: flex !important;
+  }
+
+  span {
+    font-size: 16px !important;
+    line-height: 30px !important;
+    letter-spacing: 0.1em !important;
+    margin-left: 0px !important;
+    margin-right: 20px;
+  }
+    }
+   
+
+    form {
+      display:none !important;
+
+     
+    }
+
+    img {
+      margin-right: 0px !important;
+    }
+  }
+
+  .artisans_info {
+    position: relative;
+    .left_side {
+      position: absolute;
+      width: 100% !important;
+      display: flex;
+      justify-content: center;
+      img{
+        margin: 0 !important;
+      }
+    }
+    .right_side {
+      padding: 0 10px !important;
+      order: 4;
+      margin-bottom: 50px !important;
+      width: 100% !important;
+      .name {
+        align-items: flex-start !important;
+
+        .name_left {
+          width: 65%;
+
+          h1 {
+            font-size: 30px !important;
+          }
+
+          .loca_cate {
+            margin-bottom: 32px;
+
+            span {
+              white-space: nowrap !important;
+              margin-left: 0px !important;
+              font-size: 16px !important;
+
+              &:nth-child(2) {
+                margin-left: 20px !important;
+                color: #828282;
+              }
+            }
+          }
+        }
+
+        button {
+          font-size: 18px !important;
+          padding: 8px 20px !important;
+        }
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      .see_more_link {
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  .artisans_item_slider {
+    margin-top: 260px !important;
+  }
+
+
+}
+
+@media only screen and (max-width: 550px) {
+  .search_place {
+    form {
+      input {
+        width: 120px !important;
+      }
+    }
+  }
+
+  .artisans_info {
+    position: relative;
+
+    .left_side {
+      position: absolute;
+    }
+
+    .right_side {
+      order: 4;
+      margin-bottom: 50px !important;
+      width: 100% !important;
+
+      .name {
+        align-items: flex-start !important;
+
+        .name_left {
+          width: 65%;
+
+          h1 {
+            font-size: 26px !important;
+          }
+
+          .loca_cate {
+            margin-bottom: 32px;
+
+            span {
+              white-space: nowrap !important;
+              margin-left: 0px !important;
+              font-size: 15px !important;
+
+              &:nth-child(2) {
+                margin-left: 20px !important;
+                color: #828282;
+              }
+            }
+          }
+        }
+
+        button {
+          font-size: 18px !important;
+          padding: 8px 20px !important;
+        }
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      .see_more_link {
+        font-size: 18px !important;
+      }
+    }
+  }
+
+  .artisans_item_slider {
+    margin-top: 260px !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .search_place {
+    flex-wrap: wrap;
+
+    span {
+      font-size: 16px !important;
+      line-height: 30px !important;
+      letter-spacing: 0.1em !important;
+      margin-left: 0px !important;
+    }
+
+    form {
+      width: 100%;
+      flex-wrap: wrap;
+      order: 3;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 40px;
+
+      input {
+        width: 150px !important;
+        height: 100% !important;
+        order: 3 !important;
+
+        &:nth-child(2) {
+          margin: 0 16px !important;
+        }
+      }
+    }
+
+    img {
+      margin-right: 0px !important;
+    }
+  }
+
+  .artisans_info {
+    position: relative;
+
+    .left_side {
+      position: absolute;
+      img {
+        width: 221px !important;
+        height: 221px !important;
+      }
+    }
+
+    .right_side {
+      order: 4;
+      margin-bottom: 50px !important;
+      width: 100% !important;
+
+      .name {
+        align-items: flex-start !important;
+
+        .name_left {
+          width: 65%;
+
+          h1 {
+            font-size: 22px !important;
+          }
+
+          .loca_cate {
+            margin-bottom: 32px;
+
+            span {
+              white-space: nowrap !important;
+              margin-left: 0px !important;
+              font-size: 14px !important;
+
+              &:nth-child(2) {
+                margin-left: 20px !important;
+                color: #828282;
+              }
+            }
+          }
+        }
+
+        button {
+          font-size: 18px !important;
+          padding: 6px 18px !important;
+        }
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      .see_more_link {
+        font-size: 14px !important;
+      }
+    }
+  }
+
+  .artisans_item_slider {
+    margin-top: 240px !important;
+  }
+}

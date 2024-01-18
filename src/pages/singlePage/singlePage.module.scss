@@ -1,0 +1,651 @@
+.single_page_socials_block {
+    button {
+        border: none;
+        background: none;
+        button {
+            width: 54px;
+        height: 54px;
+        margin-right: 16px !important;
+        background: #F9F9F9 !important;
+        border-radius: 8px;
+        cursor: pointer;
+        
+        }
+    }
+
+}
+.single_wrapper {
+    .inner_page {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        .left_side {
+            width: 65%;
+
+            .single_page_main_content {
+                .single_page_name {
+                    font-family: Vollkorn;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 48px;
+                    line-height: 140%;
+                    letter-spacing: 0.065em;
+                    color: #242424;
+                    margin: 0;
+                    margin-bottom: 16px;
+                }
+
+                .single_page_shorts {
+                    display: flex;
+                    width: 70%;
+                    justify-content: space-between;
+                    margin-bottom: 38px;
+
+                    span {
+                        font-family: Inter;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #797979;
+                    }
+
+                    .single_page_view_count {
+                        display: flex;
+                        align-items: center;
+
+                        img {
+                            margin-right: 5px;
+                        }
+                    }
+                }
+
+                .single_page_image {
+                    img {
+                        width: 100%;
+                        height: 534px;
+                        object-fit: cover;
+                        border-radius: 16px;
+                    }
+
+                    p {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 36px;
+                        letter-spacing: 0.0216em;
+                        color: #000000;
+                        margin-top: 48px;
+                    }
+                }
+
+                .singfle_page_middle_content {
+                    margin-bottom: 48px;
+
+                    h2 {
+                        margin: 0;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 40px;
+                        letter-spacing: 0.05em;
+                        color: #242424;
+                        margin-top: 43px;
+                        margin-bottom: 24px;
+                    }
+
+                    p {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 36px;
+                        letter-spacing: 0.0216em;
+                        color: #000000;
+                    }
+                }
+
+                .single_page_image_block_one {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+
+                    img {
+                        width: 45%;
+                        height: 384px;
+                        object-fit: cover;
+                        border-radius: 8px;
+                        margin-top: 35px;
+                    }
+
+                    p {
+                        width: 48%;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 36px;
+                        letter-spacing: 0.0216em;
+                        color: #000000;
+                        margin: 0;
+                    }
+                }
+
+                .single_page_shares_place {
+                    margin-top: 52px;
+
+                    .single_page_top_share {
+                        display: flex;
+                        margin-bottom: 24px;
+
+                        .single_page_click_like {
+                            button {
+                                display: block;
+                                padding: 6px 12px 6px 34px;
+                                background: #1877F2;
+                                border-radius: 6px;
+                                border: none;
+                                color: #fff;
+                                font-family: Inter;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 12px;
+                                line-height: 16px;
+                                display: flex;
+                                align-items: center;
+                                color: #FFFFFF;
+                                position: relative;
+                                cursor: pointer;
+                                width: 94px;
+
+                                span {
+                                    display: block;
+                                    margin-left: 8px;
+                                }
+
+                                &::before {
+                                    content: '';
+                                    position: absolute;
+                                    width: 14px;
+                                    height: 12px;
+                                    background-image: url('../../assets/icons/like.png');
+                                    left: 12px;
+                                    background-size: contain;
+                                    background-repeat: no-repeat;
+                                    top: 6px;
+
+                                }
+                            }
+
+                            &.another_link {
+                                margin-left: 24px;
+
+                                button {
+                                    background-color: #0C7ABF;
+                                    width: 94px;
+
+                                    &::before {
+                                        background-image: url('../../assets/icons/twitter.png');
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .single_page_bottom_share {
+                        margin-bottom: 48px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        padding: 32px 0;
+                        border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+                        border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+
+                        h3 {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 24px;
+                            letter-spacing: 0.15em;
+                            color: #242424;
+                            margin: 0;
+                        }
+
+                        .single_page_socials_block {
+                            button {
+                                border: none;
+                                background: none;
+                                button {
+                                    width: 54px;
+                                height: 54px;
+                                margin-right: 16px !important;
+                                background: #F9F9F9 !important;
+                                border-radius: 8px;
+                                cursor: pointer;
+                                
+                                }
+                            }
+                        
+                        }
+                    }
+                }
+
+                .single_page_write_comment {
+                    .single_page_holder {
+                        margin-bottom: 24px;
+
+                        h2 {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 30px;
+                            line-height: 40px;
+                            letter-spacing: 0.1em;
+                            color: #242424;
+                            margin: 0;
+                            margin-bottom: 4px;
+                        }
+
+                        p {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 18px;
+                            line-height: 30px;
+                            letter-spacing: 0.0216em;
+                            color: #000000;
+                        }
+                    }
+
+                    .single_page_writer_comments_place {
+                        display: flex;
+                        width: 100%;
+                        align-items: flex-start;
+                        justify-content: space-between;
+                        .commenter_avatar{
+                            width: 15%;
+                            img{
+                                width: 51px;
+                                height: 51px;
+
+                                object-fit: contain;
+                            }
+                        }
+
+                        .single_page_top_comments {
+                            width: 90%;
+
+                            .single_page_forma {
+                                width: 100%;
+
+                                span {
+                                    display: block;
+                                }
+
+                                textarea {
+                                    border: none;
+                                    outline: none;
+                                    resize: none;
+                                    width: 100%;
+                                    display: block;
+                                    background: #F5F5F5;
+                                    border-radius: 8px;
+                                    padding: 24px;
+                                    box-sizing: border-box;
+                                    height: 170px;
+                                    font-family: Montserrat;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 18px;
+                                    line-height: 30px;
+                                    letter-spacing: 0.0216em;
+                                    color: #000;
+                                    margin-bottom: 16px;
+                                }
+
+                                .single_page_inputs {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    margin-bottom: 24px;
+
+                                    input {
+                                        width: 32%;
+                                        display: block;
+                                        padding: 8px 15px;
+                                        border: none;
+                                        outline: none;
+                                        background: #F5F5F5;
+                                        border-radius: 8px;
+                                        font-family: Montserrat;
+                                        font-style: normal;
+                                        font-weight: 300;
+                                        font-size: 18px;
+                                        line-height: 30px;
+                                        letter-spacing: 0.0216em;
+                                        color: #000;
+                                    }
+                                }
+
+                                .check_wrap {
+                                    display: flex;
+                                    align-items: flex-start;
+                                    margin-bottom: 34px;
+                                }
+
+                                label {
+                                    font-family: Montserrat;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 18px;
+                                    line-height: 30px;
+                                    letter-spacing: 0.0216em;
+                                    color: #000000;
+                                    cursor: pointer;
+                                }
+
+                                .checkbox {
+                                    width: 18px;
+                                    height: 18px;
+                                    display: block;
+                                    margin-right: 18px;
+                                    margin-top: 8px;
+                                }
+
+                                .add_comment {
+                                    border: none;
+                                    font-family: Montserrat;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 20px;
+                                    line-height: 30px;
+                                    letter-spacing: 0.05em;
+                                    color: #FFFFFF;
+                                    background: #000000;
+                                    border-radius: 8px;
+                                    padding: 12px 38px;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .single_page_comment_result_place {
+                    margin-top: 64px;
+
+                    .comments {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 32px;
+
+                        .place_left {
+                            margin-right: 48px;
+
+                            img {
+                                width: 120px;
+                                height: 120px;
+                                object-fit: cover;
+                            }
+                        }
+
+                        .place_right {
+                            h2 {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 20px;
+                                line-height: 30px;
+                                letter-spacing: 0.1em;
+                                color: #242424;
+                                margin: 0;
+                                margin-bottom: 8px;
+                            }
+
+                            p {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 18px;
+                                line-height: 30px;
+                                letter-spacing: 0.0216em;
+                                color: #161616;
+
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+        .right_side {
+            width: 30%;
+
+            h1 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 40px;
+                letter-spacing: 0.1em;
+                color: #242424;
+                margin-bottom: 32px;
+            }
+
+            .cate_wrapper {
+                margin-bottom: 64px;
+            }
+
+            .newsLetter {
+                margin-top: 64px;
+
+                .holder {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 30px;
+                    line-height: 40px;
+                    letter-spacing: 0.1em;
+                    color: #242424;
+                    margin: 0;
+                    margin-bottom: 34px;
+                }
+
+                .news_input_active {
+                    width: 100%;
+                    border: 1px solid #6C6C6C;
+                    box-sizing: border-box;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    display: flex;
+
+                    input {
+                        width: 85%;
+                        outline: none;
+                        border: none;
+                        padding: 18px 0 18px 32px;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 36px;
+                        letter-spacing: 0.0216em;
+                        color: #292929;
+                    }
+
+                    button {
+                        display: block;
+                        background: #474747;
+                        border: none;
+                        width: 15%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+
+                        &.active {
+                            background-color: #04f202;
+                        }
+
+                        img {
+                            width: 27px;
+                            height: 27px;
+                            object-fit: contain;
+                        }
+                    }
+                }
+
+                .news_input {
+                    width: 100%;
+                    border: 1px solid #04f202;
+                    box-sizing: border-box;
+                    border-radius: 8px;
+                    overflow: hidden;
+                    display: flex;
+
+                    input {
+                        width: 85%;
+                        outline: none;
+                        border: none;
+                        padding: 18px 0 18px 32px;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 18px;
+                        line-height: 36px;
+                        letter-spacing: 0.0216em;
+                        color: #292929;
+                    }
+
+                    button {
+                        display: block;
+                        background: #474747;
+                        border: none;
+                        width: 15%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        cursor: pointer;
+
+                        &.active {
+                            background-color: #04f202;
+                        }
+
+                        img {
+                            width: 27px;
+                            height: 27px;
+                            object-fit: contain;
+                        }
+                    }
+                }
+            }
+
+            .popular_posts {
+                margin-top: 64px;
+
+                .holder {
+                    margin-bottom: 32px;
+
+                    .holder_text {
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30px;
+                        line-height: 40px;
+                        letter-spacing: 0.1em;
+                        color: #242424;
+                    }
+                }
+            }
+        }
+    }
+}
+.popular_posts_mobile{
+    display: none;
+}
+.black_txt{
+    color:black;
+    font-weight: bold;
+}
+@media only screen and (max-width:1400px) {
+    .single_wrapper .inner_page .left_side{
+        width: 54%;
+    }
+    .single_wrapper .inner_page .right_side{
+        width: 41%;
+    }
+    .single_wrapper .inner_page .left_side .single_page_main_content .single_page_image_block_one{
+        flex-direction: column;
+    }
+    .single_wrapper .inner_page .left_side .single_page_main_content .single_page_image_block_one img{
+        width: 100%;
+    }
+    .single_wrapper .inner_page .left_side .single_page_main_content .single_page_image_block_one p{
+        width: 100%;
+    }
+    
+}
+@media only screen and(max-width:1024px) {
+    .single_wrapper .inner_page .left_side .single_page_main_content .single_page_image img{
+        height: 231px;
+    }
+    .single_wrapper .inner_page .left_side{
+        width: 48%;
+    }
+    .single_wrapper .inner_page .right_side{
+        width: 48%;
+    }
+    
+}
+@media only screen and(max-width:700px) {
+    .popular_posts_mobile{
+        display: block;
+        margin-top: 64px;
+        .holder{
+            margin-bottom: 32px;
+            .holder_text{
+
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 40px;
+                letter-spacing: 0.1em;
+                color: #242424;
+            }
+        }
+    }
+    .single_wrapper .inner_page .right_side .popular_posts{
+        display: none;
+    }
+    .single_wrapper .inner_page{
+        flex-direction: column-reverse;
+    }
+    .single_wrapper .inner_page .left_side{
+        width: 100%;
+    }
+    .single_wrapper .inner_page .right_side{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width:450px) {
+    .single_wrapper .inner_page .left_side .single_page_main_content .single_page_shares_place .single_page_bottom_share .single_page_socials button{
+        margin-right: 5px;
+    }
+    .single_wrapper .inner_page .left_side .single_page_main_content .single_page_name{
+        font-size: 28px;
+        line-height: 140%;
+    }
+    .single_wrapper .inner_page .left_side .single_page_main_content .singfle_page_middle_content p{
+        font-size: 17px;
+        line-height: 36px;
+    }
+    
+
+}

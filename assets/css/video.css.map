@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,AAAA,kBAAkB,CAAA;EAC1B,MAAM,EAAE,gBAAgB;CAC3B;;AAGD,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;EAErC,AAAA,YAAY,AAAA,kBAAkB,CAAA;IAC9B,MAAM,EAAE,gBAAgB;GAC3B;;;AAID,MAAM,MAAM,MAAM,MAAM,SAAS,EAAE,MAAM;EAErC,AAAA,YAAY,AAAA,kBAAkB,CAAA;IAC9B,MAAM,EAAE,gBAAgB;IACxB,KAAK,EAAE,eAAe;GACzB",
+    "sources": [
+        "../../src/pages/Resource/video.scss"
+    ],
+    "names": [],
+    "file": "video.css"
+}

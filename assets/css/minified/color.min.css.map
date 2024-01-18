@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,AAAA,CACD,gBAAgB,CAAE,SAAS,CAC9B,AAED,AAAA,MAAM,AAAA,CACF,gBAAgB,CAAE,KAAK,CAC1B,AAED,AAAA,MAAM,AAAA,CACF,gBAAgB,CAAE,KAAK,CAC1B,AAED,AAAA,UAAU,AAAA,CACN,gBAAgB,CAAE,IAAI,CACzB,AAED,AAAA,OAAO,AAAA,CACH,gBAAgB,CAAE,MAAM,CAC3B",
+    "sources": [
+        "../../../src/pages/shopPages/shopSingle/color.scss"
+    ],
+    "names": [],
+    "file": "color.min.css"
+}

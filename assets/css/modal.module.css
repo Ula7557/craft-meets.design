@@ -1,0 +1,43 @@
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.03);
+  -webkit-box-shadow: inset 0px 0px 68px rgba(255, 255, 255, 0.05);
+          box-shadow: inset 0px 0px 68px rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(36px);
+          backdrop-filter: blur(36px);
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.modal_wrapper {
+  position: fixed;
+  z-index: 999;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.xbutton {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  -webkit-transform: translate(90rem);
+          transform: translate(90rem);
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .xbutton {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    -webkit-transform: translate(30rem);
+            transform: translate(30rem);
+    margin-top: 200px;
+  }
+}
+/*# sourceMappingURL=modal.module.css.map */

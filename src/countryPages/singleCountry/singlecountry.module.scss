@@ -1,0 +1,561 @@
+.single_country_wrapper {
+    margin-top: 100px;
+    .place_name {
+        .name {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 40px;
+            letter-spacing: 0.1em;
+            color: #242424;
+            margin: 0;
+            margin: 60px 0 36px 0;
+        }
+        .name_btns {
+            display: flex;
+            align-items: center;
+            button {
+                width: 224px;
+                height: 160px;
+                display: flex;
+                cursor: pointer;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                margin-right: 36px;
+                border: none;
+                background-color: transparent;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+                box-sizing: border-box;
+                border-radius: 8px;
+                transition: .2s;
+                &:hover {
+                    background: #505050;
+
+                    span {
+                        color: #fff;
+                    }
+
+                    .icons {
+                        fill: #fff;
+                    }
+                }
+                &.active {
+                    background: #505050;
+
+                    span {
+                        color: #fff;
+                    }
+
+                    .icons {
+                        fill: #fff;
+                    }
+                }
+                .icons {
+                    width: 58px;
+                    height: 58px;
+                    fill: #383838;
+                }
+                span {
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 30px;
+                    letter-spacing: 0.1em;
+                    color: #242424;
+                    display: block;
+                    margin-top: 18px;
+                }
+            }
+        }
+    }
+
+    .sliders_wrapper {
+        margin-top: 64px;
+
+        .artisans {
+            margin-bottom: 64px;
+
+            h1 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 40px;
+                letter-spacing: 0.1em;
+                color: #242424;
+                margin-bottom: 0;
+                margin-bottom: 34px;
+            }
+
+            .slider {
+                .slide_card {
+                    width: 100%;
+                    padding: 32px;
+                    border: 0.5px solid #9CA5B2;
+                    box-sizing: border-box;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+                    border-radius: 8px;
+
+                    .info {
+                        margin-bottom: 24px;
+                        display: flex;
+                        align-items: flex-start;
+
+                        .left_info {
+                            width: 136px;
+                            height: 136px;
+                            margin-right: 16px;
+
+                            img {
+                                width: 136px;
+                                height: 136px;
+                                object-fit: cover;
+                                border-radius: 50%;
+                            }
+                        }
+
+                        .right_info {
+                            h3 {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 24px;
+                                line-height: 40px;
+                                letter-spacing: 0.1em;
+                                color: #242424;
+                                margin-bottom: 4px;
+                                word-break: break-word;
+                            }
+
+                            span {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 14px;
+                                line-height: 30px;
+                                letter-spacing: 0.1em;
+                                color: #979797;
+                                display: block;
+
+                                &.fuck {
+                                    color: #161616;
+                                }
+                            }
+
+                            .follow {
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+
+                                button {
+                                    border: none;
+                                    background-color: transparent;
+                                    border: 1px solid #161616;
+                                    border-radius: 8px;
+                                    font-family: Montserrat;
+                                    font-style: normal;
+                                    font-weight: 600;
+                                    font-size: 14px;
+                                    line-height: 30px;
+                                    letter-spacing: 0.05em;
+                                    color: #000000;
+                                    padding: 0;
+                                    width: 100px;
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+
+                    p {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 14px;
+                        line-height: 150%;
+                        letter-spacing: 0.0216em;
+                        color: #161616;
+                        height: 65px;
+                        overflow: hidden;
+                        margin-bottom: 20px;
+                    }
+
+                    .images {
+                        display: flex;
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+
+                        img {
+                            margin-bottom: 14px;
+                            width: 45%;
+                            height: 136px;
+                            border-radius: 8px;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .button {
+                        display: block;
+                        border: none;
+                        font-family: Montserrat;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 30px;
+                        letter-spacing: 0.05em;
+                        color: #FFFFFF;
+                        background: #000000;
+                        border-radius: 8px;
+                        padding: 12px 0;
+                        width: 100%;
+                        margin-top: 20px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .crafts {
+            margin-bottom: 64px;
+
+            &.active {
+                margin-bottom: 128px;
+            }
+
+            h1 {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 40px;
+                letter-spacing: 0.1em;
+                color: #242424;
+                margin-bottom: 0;
+                margin-bottom: 34px;
+            }
+
+            .slider {
+                display: flex;
+                justify-content: space-between;
+
+                .craft_slide {
+                    border: 0.5px solid #9CA5B2;
+                    box-sizing: border-box;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+                    border-radius: 8px;
+                    overflow: hidden;
+                    width: 100%;
+
+                    .card_top {
+                        width: 100%;
+                        height: 408px;
+                        position: relative;
+
+                        &::before {
+                            position: absolute;
+                            content: '';
+                            background-image: url('../../assets/icons/video.png');
+                            width: 44px;
+                            height: 44px;
+                            background-position: center;
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            top: 16px;
+                            left: 16px;
+                        }
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+
+                        &.active {
+                            height: 408px;
+                        }
+                    }
+
+                    .card_content {
+                        padding: 32px;
+
+                        .little_things {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            margin-bottom: 17px;
+
+                            span {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 18px;
+                                line-height: 30px;
+                                letter-spacing: 0.0216em;
+                                color: #8C8C8C;
+                                padding-left: 36px;
+                                position: relative;
+
+                                &::before {
+                                    content: '';
+                                    position: absolute;
+                                    background-position: center;
+                                    background-size: contain;
+                                    left: 0;
+                                    top: 0;
+                                    bottom: 0;
+                                    margin: auto;
+                                    background-repeat: no-repeat;
+                                }
+
+                                &.comment {
+                                    margin-left: 17px;
+
+                                    &::before {
+                                        width: 25px;
+                                        height: 24px;
+                                        background-image: url('../../assets/icons/sms.png');
+                                    }
+                                }
+
+                                &.like {
+                                    &::before {
+                                        width: 27px;
+                                        height: 24px;
+                                        background-image: url('../../assets/icons/heart.png');
+                                    }
+                                }
+
+                                &.view {
+                                    &::before {
+                                        width: 30px;
+                                        height: 20px;
+                                        background-image: url('../../assets/icons/eye.png');
+                                    }
+
+                                    &.active {
+                                        margin: 0;
+                                        padding: 0;
+
+                                        &::before {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        h3 {
+                            font-family: Montserrat;
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 30px;
+                            letter-spacing: 0.1em;
+                            color: #242424;
+                            margin-bottom: 0;
+                            margin-bottom: 16px;
+                        }
+
+                        .card_person {
+                            display: flex;
+                            align-items: center;
+
+                            p {
+                                font-family: Montserrat;
+                                font-style: normal;
+                                font-weight: 300;
+                                font-size: 14px;
+                                line-height: 150%;
+                                letter-spacing: 0.0216em;
+                                color: #161616;
+                                margin-right: 13px;
+                            }
+
+                            img {
+                                width: 88px;
+                                height: 88px;
+                                object-fit: cover;
+                                border-radius: 50%;
+                            }
+
+                            &.active {
+                                img {
+                                    display: none;
+                                }
+
+                                p {
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .span_in_span {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+@media only screen and (max-width:1024px) {
+
+
+    .single_country_wrapper .place_name .name {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .single_country_wrapper .place_name .name_btns {
+        justify-content: center;
+    }
+
+    .single_country_wrapper .place_name .name_btns button {
+        width: 23%;
+        margin: 0 10px;
+    }
+
+    .single_country_wrapper .sliders_wrapper h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .single_country_wrapper .sliders_wrapper .crafts h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:700px) {
+
+
+    .single_country_wrapper .place_name .name {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .single_country_wrapper .place_name .name_btns {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+
+    .single_country_wrapper .sliders_wrapper h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .single_country_wrapper .sliders_wrapper .crafts h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+     .single_country_wrapper .place_name .name_btns button {
+        width: 40%;
+        margin: 10px;
+        font-size: 17px;
+        line-height: 30px;
+
+    }
+}
+
+
+@media only screen and (max-width:500px) {
+
+    .single_country_wrapper .place_name .name_btns button {
+        width: 40%;
+        margin: 10px;
+        
+    }
+
+    .single_country_wrapper .place_name .name_btns button span {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .single_country_wrapper .place_name .name_btns {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .single_country_wrapper .place_name .name_btns .icons {
+        width: 40px;
+        height: 40px;
+    }
+
+    .single_country_wrapper .sliders_wrapper .artisans .slider .slide_card .info .right_info h3 {
+        font-size: 22.3164px;
+        line-height: 37px;
+    }
+
+    .single_country_wrapper .sliders_wrapper .artisans .slider .slide_card .info .right_info span {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    .single_country_wrapper .sliders_wrapper .artisans .slider .slide_card .info .right_info .follow span {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .single_country_wrapper .sliders_wrapper .artisans .slider .slide_card .info .right_info .follow {
+        margin-top: 7px;
+    }
+
+    .single_country_wrapper .sliders_wrapper .artisans .slider .slide_card .info .right_info .follow button {
+        font-size: 14px;
+        line-height: 28px;
+        margin-left: 10px;
+    }
+
+    .single_country_wrapper .sliders_wrapper .artisans .slider .slide_card .info .left_info {
+        width: 100px;
+        height: 100px;
+    }
+
+    .single_country_wrapper .sliders_wrapper .artisans .slider .slide_card {
+        padding: 10px;
+    }
+
+    .single_country_wrapper .sliders_wrapper .crafts .slider .craft_slide .card_content .little_things span.comment {
+        font-size: 15px;
+        padding-left: 22px;
+    }
+
+    .single_country_wrapper .sliders_wrapper .crafts .slider .craft_slide .card_content .little_things span.like {
+        font-size: 15px;
+        padding-left: 22px;
+    }
+
+    .single_country_wrapper .sliders_wrapper .crafts .slider .craft_slide .card_content .little_things span.view {
+        font-size: 15px;
+        padding-left: 24px;
+    }
+
+    .single_country_wrapper .sliders_wrapper .crafts .slider .craft_slide .card_content .little_things span.view::before {
+        width: 20px;
+    }
+
+    .single_country_wrapper .sliders_wrapper .crafts .slider .craft_slide .card_content .little_things span.like::before {
+        width: 20px;
+    }
+
+     .single_country_wrapper .sliders_wrapper .crafts .slider .craft_slide .card_content .little_things span.comment::before {
+        width: 20px;
+    }
+
+    
+
+}

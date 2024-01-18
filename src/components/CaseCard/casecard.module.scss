@@ -1,0 +1,454 @@
+.CaseCard_wrapper {
+    position: relative;
+    margin-bottom: 100px;
+
+
+    .inner {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: max-content;
+
+        &.active {
+            flex-direction: row-reverse;
+
+            .left_side {
+                .animation_images {
+                    position: absolute;
+                    right: 0;
+                    left: auto;
+                }
+            }
+        }
+    }
+
+    .left_side {
+        width: 47%;
+
+        .animation_images {
+            position: absolute;
+            display: flex;
+            max-width: 890px;
+            height: 100%;
+            left: 0;
+
+            .card_image {
+                width: 23%;
+                height: 100%;
+                transition: 0.3s;
+
+                &.active {
+                    width: 64%;
+                }
+
+                &:nth-child(2) {
+                    padding: 0 10px;
+                }
+
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .right_side {
+        width: 47%;
+
+        h1 {
+            margin: 0;
+            font-family: Vollkorn;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 140%;
+            letter-spacing: 0.065em;
+            color: #161616;
+            margin-top: 50px;
+        }
+
+        span {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 40px;
+            letter-spacing: 0.1em;
+            color: #828282;
+            display: block;
+            margin: 8px 0 36px 0;
+        }
+
+        p {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 36px;
+            letter-spacing: 0.0216em;
+            color: #161616;
+            margin: 0;
+            margin-bottom: 40px;
+        }
+
+        .button {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.05em;
+            cursor: pointer;
+            color: #000000;
+            background-color: transparent;
+            border: none;
+            padding: 12px 40px;
+            border: 1px solid #000;
+            border-radius: 8px;
+            display: inline-block;
+        }
+    }
+}
+
+@media screen and (max-width: 1750px) {
+    .CaseCard_wrapper .left_side .animation_images {
+        max-width: 730px;
+    }
+}
+
+
+@media only screen and (max-width:1440px) {
+
+    .CaseCard_wrapper .left_side .animation_images {
+        max-width: 560px;
+    }
+
+    .CaseCard_wrapper .inner .right_side h1 {
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 140%;
+        display: flex;
+        margin-top: 0;
+        align-items: flex-end;
+        letter-spacing: 0.065em;
+        color: #161616;
+    }
+
+    .CaseCard_wrapper .inner .right_side span {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 40px;
+        letter-spacing: 0.1em;
+        color: #828282;
+    }
+
+    .CaseCard_wrapper .inner .right_side p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.0216em;
+        color: #161616;
+    }
+
+    .CaseCard_wrapper .inner .right_side .button {
+        font-style: normal;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #000000;
+    }
+
+
+}
+
+@media screen and (max-width: 1125px) {
+    .CaseCard_wrapper .inner .left_side .animation_images {
+        max-width: 500px;
+    }
+}
+
+
+@media only screen and (max-width:1024px) {
+
+    .CaseCard_wrapper .inner .left_side .animation_images {
+        position: inherit;
+        max-width: 1024px;
+    }
+
+    .CaseCard_wrapper .inner.active .left_side .animation_images {
+        position: inherit;
+        max-width: 1024px;
+    }
+
+    .CaseCard_wrapper .inner.active {
+        flex-direction: column;
+    }
+
+    .CaseCard_wrapper .inner {
+        flex-direction: column;
+    }
+
+    .CaseCard_wrapper .left_side .animation_images {
+        max-width: 500px;
+    }
+
+    .CaseCard_wrapper .inner .right_side h1 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 140%;
+        display: flex;
+        margin-top: 40px;
+        align-items: flex-end;
+        letter-spacing: 0.065em;
+        color: #161616;
+    }
+
+    .CaseCard_wrapper .inner .right_side span {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 40px;
+        letter-spacing: 0.1em;
+        color: #828282;
+    }
+
+    .CaseCard_wrapper .inner .right_side p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.0216em;
+        color: #161616;
+    }
+
+    .CaseCard_wrapper .inner .right_side .button {
+        font-style: normal;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #000000;
+    }
+
+    .CaseCard_wrapper .inner .left_side .animation_images {
+        position: inherit;
+        max-width: 1024px;
+        height: 465px;
+    }
+
+    .CaseCard_wrapper .inner .left_side {
+        width: 100%;
+    }
+
+    .CaseCard_wrapper .inner .right_side {
+        width: 100%;
+    }
+
+
+    .CaseCard_wrapper {
+        margin-bottom: 70px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:968px) {
+
+
+
+
+
+    .CaseCard_wrapper .inner .left_side .animation_images {
+        position: inherit;
+        max-width: 968px;
+    }
+
+
+
+    .CaseCard_wrapper .inner .right_side h1 {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 140%;
+        display: flex;
+        align-items: flex-end;
+        letter-spacing: 0.065em;
+        color: #161616;
+    }
+
+    .CaseCard_wrapper .inner .right_side span {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 40px;
+        letter-spacing: 0.1em;
+        color: #828282;
+    }
+
+    .CaseCard_wrapper .inner .right_side p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.0216em;
+        color: #161616;
+    }
+
+    .CaseCard_wrapper .inner .right_side .button {
+        font-style: normal;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #000000;
+    }
+
+    .CaseCard_wrapper {
+        margin-bottom: 70px;
+    }
+
+}
+
+
+@media only screen and (max-width:768px) {
+
+
+
+    .CaseCard_wrapper .inner .left_side .animation_images {
+        position: inherit;
+        max-width: 768px;
+    }
+
+
+
+    .CaseCard_wrapper .inner .right_side h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 140%;
+        display: flex;
+        align-items: flex-end;
+        letter-spacing: 0.065em;
+        color: #161616;
+    }
+
+    .CaseCard_wrapper .inner .right_side span {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 40px;
+        letter-spacing: 0.1em;
+        color: #828282;
+    }
+
+    .CaseCard_wrapper .inner .right_side p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.0216em;
+        color: #161616;
+    }
+
+    .CaseCard_wrapper .inner .right_side .button {
+        font-style: normal;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #000000;
+    }
+
+
+    .CaseCard_wrapper .inner .left_side {
+        height: 333px;
+    }
+
+    .CaseCard_wrapper .inner .left_side .animation_images {
+        height: 100%;
+    }
+
+    .CaseCard_wrapper {
+        margin-bottom: 70px;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width:450px) {
+
+
+
+    .CaseCard_wrapper .inner .left_side .animation_images {
+        position: inherit;
+        max-width: 768px;
+    }
+
+
+
+    .CaseCard_wrapper .inner .right_side h1 {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        letter-spacing: 0.065em;
+        color: #161616;
+    }
+
+    .CaseCard_wrapper .inner .right_side span {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 40px;
+        letter-spacing: 0.1em;
+        color: #828282;
+    }
+
+    .CaseCard_wrapper .inner .right_side p {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 36px;
+        letter-spacing: 0.0216em;
+        color: #161616;
+    }
+
+    .CaseCard_wrapper .inner .right_side .button {
+        font-style: normal;
+        display: inline-block;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #000000;
+        padding: 8px 20px;
+    }
+
+
+    .CaseCard_wrapper .inner .left_side {
+        height: 214px;
+    }
+
+    .CaseCard_wrapper .inner .left_side .animation_images {
+        height: 100%;
+    }
+
+    .CaseCard_wrapper {
+        margin-bottom: 70px;
+    }
+
+
+
+}

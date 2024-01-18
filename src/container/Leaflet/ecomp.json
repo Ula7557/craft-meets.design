@@ -1,0 +1,197 @@
+{
+  "type": "FeatureCollection",
+  "name": "USLabels",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Tashkent",
+        "description": "Tashkent",
+        "altitudeMode": "clampToGround",
+        "tessellate": "-1",
+        "extrude": "0",
+        "visibility": "-1",
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [69.2667, 41.3, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Samarkand",
+        "description": "Samarkand",
+        "altitudeMode": "clampToGround",
+        "tessellate": "-1",
+        "extrude": "0",
+        "visibility": "-1",
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [66.2597, 39.6542, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Andijan",
+        "description": "Andijan",
+        "extrude": "0",
+        "visibility": "-1",
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72.35, 40.7, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Namangan",
+        "description": "Namangan",
+        "extrude": "0",
+        "visibility": "-1",
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.2525, 40.9953, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Bukhara",
+        "description": "Bukhara",
+        "extrude": "0",
+        "visibility": "-1",
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [63.6286, 39.7747, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Djizzak",
+        "description": "Djizzak",
+        "extrude": "0",
+        "visibility": "-1",
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.85, 40.1167, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Fergana",
+        "description": "Fergana",
+        "extrude": "0",
+        "visibility": "-1",
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.2847, 40.6258, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Qashqadaryo",
+        "description": "Qashqadaryo",
+        "extrude": "0",
+        "visibility": "-1",
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [65.8208, 39.0521, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Khorezm",
+        "description": "Khorezm",
+        "extrude": "0",
+        "visibility": "-1",
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [60.3249, 41.5345, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Navoi",
+        "description": "Navoi",
+        "extrude": "0",
+        "visibility": "-1",
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [63.1556, 42.1567, 0.0]
+      }
+    },
+  
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Surkhandarya",
+        "description": "Surkhandarya",
+        "extrude": "0",
+        "visibility": "-1",
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [67.2783, 38.20, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Syrdarya",
+        "description": "Syrdarya",
+        "extrude": "0",
+        "visibility": "-1",
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [68.4833, 40.4833, 0.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Name": "Republic of Karakalpakistan",
+        "description": "Republic of Karakalpakistan",
+        "extrude": "0",
+        "visibility": "-1",
+        "snippet": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.3022, 43.7647, 0.0]
+      }
+    }
+  ]
+}

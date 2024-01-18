@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../../src/pages/shopPages/checkout/checkout.module.scss"
+    ],
+    "names": [],
+    "file": "checkout.module.min.css"
+}

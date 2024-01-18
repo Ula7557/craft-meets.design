@@ -1,0 +1,47 @@
+.multi-range-slider{
+    background-color: transparent;
+    border:none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    .bar-left{
+        background: rgba(0, 0, 0, 0.38) !important;
+        border-radius: 1px !important;
+        height: 2px !important;      
+        box-shadow: none !important;
+        padding: 0!important;
+    }
+    .bar-right{
+        background: rgba(0, 0, 0, 0.38) !important;
+        border-radius: 1px !important;
+        height: 2px !important;      
+        box-shadow: none !important;
+        padding: 0!important;
+    }
+    .bar{
+        &.active{
+            &::before{
+                display: none !important;
+            }
+        }
+    }
+    .thumb{
+        &::before{
+            width: 16px !important;
+            height: 16px !important;
+            background-color: #000 !important;
+            box-shadow: none !important;
+            margin: -7px !important;
+        }
+    }
+}
+
+.thumbnail{
+    width: 110px !important;
+    height: 110px !important;
+    object-fit: cover;
+    border-radius: 8px !important;
+}
+
+.ant-btn{
+    border: none !important;
+}
